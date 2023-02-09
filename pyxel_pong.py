@@ -164,7 +164,7 @@ class App:
         if self.player2.score == 5:
             self.winner = "Player 2"
         if pyxel.btnp(pyxel.KEY_T):
-            self.winner = "Yo mamma"
+            self.winner = "TEST P0"
         print(
             f"\nFrame: {pyxel.frame_count}\nPlayer 1: {round(self.player1.y, 1):>5} ({self.player1.score})\nPlayer 2: {round(self.player2.y, 1):>5} ({self.player2.score})\nBall: {self.ball.x}, {self.ball.y}"
         )
